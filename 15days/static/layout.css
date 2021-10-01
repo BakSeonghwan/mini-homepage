@@ -71,10 +71,10 @@ bottom:0;
   justify-content: center;}
 
   
-.content_top{ 
+.content_top{ font-size:14px;
     justify-content: space-between;
   padding-right: 40px;
   font-weight: bold}
-.sidesize1{font-size:14px;}
+
 
 
