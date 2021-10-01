@@ -1,0 +1,230 @@
+.container1 {
+    width: 100%;
+    height: 450px;
+    overflow: scroll;
+    overflow-x: hidden
+}
+
+.text1 {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(228, 228, 228);
+    margin: 1px 10px 10px 10px;
+    padding-left: 20px;
+    line-height: 35px;
+    border-radius: 5px;
+}
+
+
+
+
+
+.img001,
+.img002,
+.img003 {
+    margin-left: 20px;
+    margin-right: -20px;
+
+}
+
+.text1-1 {
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.size1 {
+    font-size: 0.7rem;
+}
+
+
+
+
+/**     **/
+.diarymain2 {
+    flex: 0.93;
+    background-color: #ffffff;
+    border: 1px #d4d4d4 solid;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+
+
+.date-box {
+
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    height: 3rem;
+
+    border: 1px solid #e7e7e7;
+
+    display: flex;
+    align-items: center;
+}
+
+.today {
+    flex: 0 0 2rem;
+    margin: 0 1rem;
+    text-align: center;
+    color: #3b87ab;
+    font-weight: 700;
+}
+
+.date-list {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.date {
+    flex: 0 0 1.5rem;
+    color: #707070;
+    cursor: pointer;
+    text-align: center;
+}
+
+.scroll-box {
+    position: absolute;
+    margin-top: 4rem;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    overflow: auto;
+}
+
+.color-red {
+    color: red;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.d1 {
+    border: 1px solid rgb(216, 216, 216);
+    text-align: center;
+    margin: 10px;
+}
+
+.d2 {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    color: white
+}
+
+
+.secret_box {
+    color: white;
+    background-color: rgb(255, 255, 255);
+    width: 130px;
+    margin: 0 200px;
+}
+
+.d3 {
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    background-color: white;
+    line-height: 60px;
+    border-radius: 10px;
+}
+
+.d3:hover {
+    background-color: #3395b0;
+    ;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.bigd1 {
+    width: 100%;
+    height: 450px;
+    overflow: scroll;
+    overflow-x: hidden
+}
+
+.date1 {
+    font-size: 0.8rem;
+    text-align: left
+}
+
+
+#secret-box {
+    display: none;
+}
+
+.diary_contents {
+    border: 0.5px solid rgb(179, 179, 179);
+    padding: 25px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+
+}
+
+.diary_today {
+    text-align: center;
+}
+
+.book1 {
+    width: 100%;
+    height: 450px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.guestbook-image {
+    flex: 0 0 8rem;
+    height: 8rem;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-1 {
+    background-image: url("./images/pattern.png");
+}
+.guestbook-image>img {
+    width: 80%;
+}
+.texto1 {
+    width: 100%;
+    height: 30px;
+
+    background-color: rgb(230, 240, 240);
+    margin: 1px 10px 1px 10px;
+    padding-left: 20px;
+    line-height: 30px;
+    
+}
+.bo1 {
+    border: 1px solid rgb(216, 216, 216);
+    text-align: center;
+    margin: 10px;
+    width: 120px;
+    float: left;
+}
+.bo2 {
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    float: left;
+    height: 160px;
+}
+
+.obo1 {
+    overflow: hidden;
+}
